@@ -6,7 +6,7 @@
 
 # Preview
 
-![Anurag Hazra Site Preview](./assets/screenshot/Screencast.webm)
+![Anurag Hazra Site Preview](./assets/screenshot/Screencast.gif)
 
 ---
 
