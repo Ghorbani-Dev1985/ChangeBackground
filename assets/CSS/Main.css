@@ -1,3 +1,4 @@
+@import url("./Font.css");
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,8 +8,9 @@ html{
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
 .animate-charcter
 {
@@ -17,6 +19,8 @@ html{
     justify-content: center;
     align-items: center;
    text-transform: uppercase;
+   font-family: "Shabnam";
+    font-weight: bold;
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -33,7 +37,6 @@ html{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
       font-size: 100px;
 }
 
